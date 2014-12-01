@@ -9,7 +9,8 @@ At the same time, an identical banner appeared in the Harvard Square subway stat
 Suggested steps to complete the assignment
 ------------------------------------------
 1. Go to [http://codingbat.com/home/simona1@sfusd.edu](http://codingbat.com/home/simona1@sfusd.edu), log in, and do the isPrime problem
-2. Now you are ready to start the project. Fork and clone down this repository
+2. You may find [these slides that explain the problem](https://drive.google.com/file/d/0Bz2ZkT6qWPYTZVRtR1JtVFZlaTA/view?usp=sharing) helpful
+3. Now you are ready to start the project. Fork and clone down this repository
 3. In draw() use String substring(int beginIndex,int endIndex) to pull out ten consecutive digits of e at a time. Convert them to doubles with Double.parseDouble(). Here's an example:
      String digits = e.substring(2,12); 
      double dNum = Double.parseDouble(digits); 
