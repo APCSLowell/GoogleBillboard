@@ -17,7 +17,7 @@ Suggested steps to complete the assignment
      `System.out.println(dNum);  //displays 7.182818284E9`  
 Note that by default, Java displays doubles in exponential form. `7.182818284E9` is 7.182818284 x 10^9.
 5. Finish the  `isPrime()`  to test if a number is prime.
-6. Add a loop to `draw()` that moves through the digits of e until it finds the first 10 digit prime.
+6. Add a loop to `setup()` that moves through the digits of e until it finds the first 10 digit prime.
 7. Add commit and push your finished program to your github account. Note that there is no web page for this assignment, so you will be pushing to the master branch, not gh-pages. 
 8. Submit the url of your GitHub repository via the school loop drop box for the assignment. The url will have the form http://github.com/*your github username*/GoogleBillboard
 9. If you have extra time you may want to see if you can solve the second puzzle. You will need more digits than the constant in the sample code has
