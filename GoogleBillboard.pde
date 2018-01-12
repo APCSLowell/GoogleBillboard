@@ -9,6 +9,6 @@ public void draw()
 }  
 public boolean isPrime(double dNum)  
 {   
-    //to be finished later   
+    //your code here   
     return true;  
 } 
