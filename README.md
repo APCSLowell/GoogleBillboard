@@ -8,7 +8,7 @@ At the same time, an identical banner appeared in the Harvard Square subway stat
 
 Suggested steps to complete the assignment
 ------------------------------------------
-1. Go to [http://codingbat.com/home/simona1@sfusd.edu](http://codingbat.com/home/simona1@sfusd.edu), log in, and do the isPrime problem
+1. Go to https://codingbat.com/prob/p221207](https://codingbat.com/prob/p221207), log in, and do the isPrime problem
 2. You may find slides 4 - 42 of the [APJavaStrings](https://docs.google.com/presentation/d/1BS9pfAvCDXkIX-XV6ghY_bPwi1IN0j_Qa6b7QZgMR3Y/edit?usp=sharing) slide presentation helpful
 3. Now you are ready to start the project. Fork and clone down this repository
 3. In `setup()` use `String substring(int beginIndex,int endIndex)` to pull out ten consecutive digits of e at a time. Convert them to doubles with `Double.parseDouble()`. Here's an example:  
