@@ -11,7 +11,7 @@ Suggested steps to complete the assignment
 1. Go to [https://codingbat.com/prob/p221207](https://codingbat.com/prob/p221207), log in, and do the isPrime problem
 2. You may find slides 4 - 42 of the [APJavaStrings](https://docs.google.com/presentation/d/1BS9pfAvCDXkIX-XV6ghY_bPwi1IN0j_Qa6b7QZgMR3Y/edit?usp=sharing) slide presentation helpful
 3. Now you are ready to start the project. Fork and clone down this repository
-3. In `setup()` use `String substring(int beginIndex,int endIndex)` to pull out ten consecutive digits of e at a time. Convert them to doubles with `Double.parseDouble()`. Here's an example:  
+3. In `setup()` use the two argument version of `substring()` to pull out ten consecutive digits of e at a time. Convert them to `double`s with `Double.parseDouble()`. Here's an example:  
      `String digits = e.substring(2,12);`   
      `double dNum = Double.parseDouble(digits);`   
      `System.out.println(dNum);  //displays 7.182818284E9`  
