@@ -19,5 +19,5 @@ Note that by default, Java displays doubles in exponential form. `7.182818284E9`
 5. Finish the  `isPrime()`  to test if a number is prime.
 6. Add a loop to `setup()` that moves through the digits of e until it finds the first 10 digit prime.
 7. Add commit and push your finished program to your github account. 
-8. There is no website for this assignment, so instead of the GitHub pages URL, submit the url of your GitHub repository to Google classroom. The url of your repository will have the form ```HTML http://github.com/ your github username /GoogleBillboard```
+8. There is no website for this assignment, so instead of the GitHub pages URL, submit the url of your GitHub repository to Google classroom. The url of your repository will have the form ```http://github.com/ your github username /GoogleBillboard```
 9. If you have extra time you may want to see if you can solve the second puzzle. 
