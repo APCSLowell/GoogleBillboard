@@ -11,13 +11,14 @@ Suggested steps to complete the assignment
 1. Go to [https://codingbat.com/prob/p221207](https://codingbat.com/prob/p221207), log in, and do the isPrime problem
 2. You may find slides 4 - 42 of the [APJavaStrings](https://docs.google.com/presentation/d/1BS9pfAvCDXkIX-XV6ghY_bPwi1IN0j_Qa6b7QZgMR3Y/edit?usp=sharing) slide presentation helpful
 3. Now you are ready to start the project. Fork and clone down this repository
-3. In `setup()` use the two argument version of `substring()` to pull out ten consecutive digits of e at a time. Convert them to `double`s with `Double.parseDouble()`. Here's an example:  
+3. In `setup()` or `main()` use the two argument version of `substring()` to pull out ten consecutive digits of e at a time. Convert them to `double`s with `Double.parseDouble()`. Here's an example:  
      `String digits = e.substring(2,12);`   
      `double dNum = Double.parseDouble(digits);`   
      `System.out.println(dNum);  //displays 7.182818284E9`  
 Note that by default, Java displays doubles in exponential form. `7.182818284E9` is 7.182818284 x 10^9.
 5. Finish the  `isPrime()`  to test if a number is prime.
-6. Add a loop to `setup()` that moves through the digits of e until it finds the first 10 digit prime.
+6. Add a loop to `setup()` or `main()` that moves through the digits of e until it finds the first 10 digit prime.
+6.5 Submit your project if you are using repl.it or codingrooms and ignore the directions below.
 7. Add commit and push your finished program to your github account. 
 8. There is no website for this assignment, so instead of the GitHub pages URL, submit the url of your GitHub repository to Google classroom. The url of your repository will have the form ```http://github.com/ your github username /GoogleBillboard```
 9. If you have extra time you may want to see if you can solve the second puzzle. 
